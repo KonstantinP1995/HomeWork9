@@ -28,5 +28,8 @@ public class Main {
 
         System.out.println(secondBook.toString());
         System.out.print("\n");
+
+        System.out.println(firstBook.equals(secondBook));
+        System.out.println(firstBook.hashCode() == secondBook.hashCode());
     }
 }
