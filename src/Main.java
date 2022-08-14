@@ -10,7 +10,6 @@ public class Main {
 
         System.out.print("\n");
 
-
         Author secondAuthor = new Author("john", "strelecky");
         Book secondBook = new Book("Cafe", secondAuthor, 2003);
 
@@ -22,5 +21,12 @@ public class Main {
         secondBook.setYearOfPublishing(2005);
 
         System.out.println("secondBook.yearOfPublishing = " + secondBook.yearOfPublishing);
+        System.out.print("\n");
+
+        System.out.println(firstBook.toString());
+        System.out.print("\n");
+
+        System.out.println(secondBook.toString());
+        System.out.print("\n");
     }
 }
